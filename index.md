@@ -1,5 +1,5 @@
 Hello, world!
 *tis me no *\
-**a\**
+**a**\
 b\
 c
