@@ -22,8 +22,24 @@ Enter the username that you were given and then hit continue.
 ![Alt text](Images/s1.png)
 
 
-
 ![Alt text](Images/s2.png)
 After this it will ask you to confirm on your duo mobile and after that it will give you a link to change your password that will be sent to your email. 
 
 ![Alt text](Images/s3.png)
+Enter any password that you want and make sure that you remember this password since this will be used to access the server
+
+
+
+After setting up your account you want to open up your terminal and type ssh USERNAME@ieng6.ucsd.edu. If you were able to set up your account properly it will ask you for your password, which is the same one that you made previously in step 6. And if you did everything correctly, it should loop something like this: 
+![Alt text](Images/term.png)
+
+Your almost done! Now you can play around with some commands such as:
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+  
+After you have tried some commands you can exist the server either by pressing control c or just typing exist. 
